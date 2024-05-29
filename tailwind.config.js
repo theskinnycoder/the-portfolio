@@ -19,8 +19,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Manrope", ...defaultTheme.fontFamily.sans],
-      mono: ["IBM Plex Mono", ...defaultTheme.fontFamily.mono],
+      sans: ["var(--font-geist-sans)"],
+      mono: ["var(--font-geist-mono)"],
     },
     extend: {
       colors: {

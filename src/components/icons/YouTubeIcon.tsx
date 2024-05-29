@@ -1,4 +1,4 @@
-export const XIcon = (props: React.SVGProps<SVGSVGElement>) => {
+export const YouTubeIcon = (props: React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,8 +11,8 @@ export const XIcon = (props: React.SVGProps<SVGSVGElement>) => {
       {...props}
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-      <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+      <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+      <path d="M10 9l5 3l-5 3z" />
     </svg>
   );
 };
